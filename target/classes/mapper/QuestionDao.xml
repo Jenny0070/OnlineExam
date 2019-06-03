@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.QuestionDao">
+    <insert id="addQuestionXZSX">
+        INSERT INTO `yitihua`.`question` (`qid`, `qcontent`, `aoption`, `boption`, `coption`, `doption`, `qanswer`, `qanalysis`, `oword`, `qscope`, `qdifficulty`, `qdate`, `qtid`, `tid`)
+         VALUES (${qid},${qcontent},${aoption},${boption},${coption},${doption},${qanswer},${qanalysis},${oword},${qscope},${qdifficulty},${qdate},${qtid},${tid});
+    </insert>
+    <insert id="addAdminQuestionXZSX">
+        INSERT INTO `yitihua`.`question` (`qcontent`, `aoption`, `boption`, `coption`, `doption`, `qanswer`, `qanalysis`, `oword`, `qscope`, `qdifficulty`, `qdate`, `qtid`)
+         VALUES ('${question.qcontent}','${question.aoption}','${question.boption}','${question.coption}','${question.doption}','${question.qanswer}','${question.qanalysis}','${question.oword}',
+        '${question.qscope}','${question.qdifficulty}','${question.qdate}',${qtid});
+
+    </insert>
+    <insert id="addQuestionPD">
+        INSERT INTO `yitihua`.`question` (`qcontent`, `aoption`, `boption`, `coption`, `doption`, `qanswer`, `qanalysis`, `oword`, `qscope`, `qdifficulty`, `qdate`, `qtid`)
+         VALUES ('${question.qcontent}','${question.aoption}','${question.boption}','${question.coption}','${question.doption}','${question.qanswer}','${question.qanalysis}','${question.oword}',
+        '${question.qscope}','${question.qdifficulty}','${question.qdate}',${qtid});
+    </insert>
+    <insert id="addQuestionTK">
+        INSERT INTO `yitihua`.`question` (`qcontent`, `aoption`, `boption`, `coption`, `doption`, `qanswer`, `qanalysis`, `oword`, `qscope`, `qdifficulty`, `qdate`, `qtid`)
+         VALUES ('${question.qcontent}','${question.aoption}','${question.boption}','${question.coption}','${question.doption}','${question.qanswer}','${question.qanalysis}','${question.oword}',
+        '${question.qscope}','${question.qdifficulty}','${question.qdate}',${qtid});
+    </insert>
+    <delete id="delQuestion">
+        delete from Question where qid = ${qid}
+    </delete>
+    <select id="ckQuestionAndXZQT" resultType="QuestionType" >
+        select * from QuestionType
+    </select>
+    <select id="findCount" resultType="java.lang.Integer">
+        select count(*) from
+         Question q
+         where q.teacher.tid = ${tid} and q.questionType.qtid = ${qtid} and  q.qscope = ${question.qscope} and q.qdifficulty = ${question.qdifficulty}
+    </select>
+    <select id="findCountAdmin" resultType="java.lang.Integer">
+        select count(*) from Question q where  q.questionType.qtid = ${qtid} and  q.qscope = ${question.qscope} and q.qdifficulty = ${question.qdifficulty}
+    </select>
+    <select id="findQuestion" resultType="com.steins.entity.Question">
+        select * from Question q join q.teacher t join q.questionType qt where t.tid = ${tid} and qt.qtid = ${qtid} and q.qscope = ${question.qscope} and q.qdifficulty = ${question.qdifficulty} order by q.qid
+        limit (${begin},${limit})
+    </select>
+    <select id="findQuestionAdmin" resultType="com.steins.entity.Question">
+        select * from Question q join q.teacher t join q.questionType qt where qt.qtid = ${qtid} and q.qscope = ${question.qscope} and q.qdifficulty = ${question.qdifficulty} order by q.qid
+        limit (${begin},${limit})
+    </select>
+    <select id="selectQuestion" resultType="com.steins.entity.Question">
+        select * from Question where qid =${qid}
+    </select>
+    <select id="finByOword" resultType="com.steins.entity.Question">
+        select * from Question q join q.questionType qt  where q.oword like ${oword} and q.qscope = ${qscope} and q.qdifficulty = ${qdifficulty} and qt.qtid = ${qtid}
+    </select>
+    <select id="ckQuestionXX" resultType="com.steins.entity.Question">
+        select  * from Question where qid = ${qtid}
+    </select>
+
+</mapper>

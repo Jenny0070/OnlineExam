@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.AnswerStateDao">
+    <insert id="saveAnswerState">
+        INSERT INTO `yitihua`.`answerstate` (`anid`, `state`, `qid`, `tnid`)
+        VALUES
+        (${a.anid}, ${a.state}, ${a.qid}, ${a.tnid});
+    </insert>
+
+    <select id="hqAnswerState" resultType="com.steins.entity.AnswerState">
+        select * from AnswerState a where a.question.qid = ${qid} and a.testNote.tnid = ${tnid}
+    </select>
+    <select id="hqQuestion" resultType="com.steins.entity.Question">
+        select * from Question where qid = ${qid}
+    </select>
+    <select id="hqTestNote" resultType="com.steins.entity.TestNote">
+        select * from TestNote where tnid = ${tnid}
+    </select>
+
+
+</mapper>

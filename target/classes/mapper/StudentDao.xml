@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.StudentDao">
+    <insert id="addStudentSX">
+        INSERT INTO `yitihua`.`student` ( `password`, `name`, `phone`, `email`, `bjid`) VALUES (${student.password}, ${student.name}, ${student.phone}, ${student.email}, ${bjid});
+    </insert>
+
+    <update id="updatePW">
+        UPDATE `yitihua`.`student` SET `password`=${npw} WHERE (`sid`=${sid});
+    </update>
+    <update id="wsStudentSX">
+        UPDATE `yitihua`.`student` SET `phone`=${student.phone}, `email`=${student.email} WHERE (`sid`=${sid});
+    </update>
+    <delete id="deleteStudent">
+        delete from Students where sid = ${sid}
+    </delete>
+
+    <select id="login" resultType="com.steins.entity.Students">
+        select * from Students where sid = ${student.sid} and password = ${student.password}
+    </select>
+    <select id="findCountTid" resultType="java.lang.Integer">
+        select count(*) from Students s where s.bj.teacher.tid= ${tid}
+    </select>
+    <select id="findCountAdmin" resultType="java.lang.Integer">
+        select count(*) from Students
+    </select>
+    <select id="findByPageTid" resultType="com.steins.entity.Students">
+        select * from Students s join s.bj b join b.teacher t where t.tid = ? order by s.sid
+    </select>
+    <select id="findByPageAdmin" resultType="com.steins.entity.Students"></select>
+    <select id="ckbj" resultType="com.steins.entity.BJ">
+        select * from BJ where tid =${tid}
+    </select>
+    <select id="ckbjAdmin" resultType="com.steins.entity.BJ">
+        select * from BJ
+    </select>
+    <select id="finBySid" resultType="com.steins.entity.Students">
+        select * from Students where sid = ${sid}
+    </select>
+    <select id="ckTestNote" resultType="com.steins.entity.TestNote">
+        select * from TestNote tn where tn.students.sid = ${sid} order by tn.tnid desc
+    </select>
+    <select id="ckAnserStatexz" resultType="com.steins.entity.AnswerState">
+        select * from AnswerState a where a.testNote.tnid = ${tnid} and a.question.questionType.qtid = ? order by a.anid asc
+    </select>
+    <select id="ckAnserStatepd" resultType="com.steins.entity.AnswerState"></select>
+    <select id="ckAnserStatetk" resultType="com.steins.entity.AnswerState"></select>
+    <select id="ckStudent" resultType="com.steins.entity.Students">
+        select * from Students where sid = ${sid}
+    </select>
+    <select id="myBJ" resultType="com.steins.entity.BJ">
+        select * from bj where bjid=(select bjid from student where sid=${sid})
+    </select>
+    <select id="ckStudentXX" resultType="com.steins.entity.Students">
+        select * from Students where sid = ${sid}
+    </select>
+
+
+</mapper>

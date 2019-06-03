@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.TestControlDao">
+    <insert id="addTestControl">
+        INSERT INTO `yitihua`.`testcontrol`
+        (`state`, `mode`, `tname`, `tdate`, `qpid`)
+        VALUES
+        (${testControl.state}, ${testControl.mode}, ${testControl.tname}, ${testControl.tdate}, ${qpid});
+    </insert>
+    <insert id="saveTestNote">
+        INSERT INTO `yitihua`.`testnote`
+         (`tname`, `tdate`, `stime`,
+         `etime`, `score`, `sid`, `qpid`)
+         VALUES
+          (${tn1.tname}, ${tn1.tdate}, ${tn1.stime},
+          ${tn1.etime}, ${tn1.score}, ${tn1.sid}, ${tn1.qpid});
+    </insert>
+    <insert id="saveAnswerState">
+        INSERT INTO `yitihua`.`answerstate`
+        ( `state`, `qid`, `tnid`)
+         VALUES
+         ( ${a.state}, ${a.qid}, ${a.tnid});
+    </insert>
+    <insert id="openTest">
+        INSERT INTO `yitihua`.`testcontrol` (`tcid`, `state`, `mode`, `tname`, `tdate`, `qpid`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL);
+    </insert>
+    <insert id="closeTest">
+        INSERT INTO `yitihua`.`testcontrol` (`tcid`, `state`, `mode`, `tname`, `tdate`, `qpid`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL);
+    </insert>
+    <select id="ckQuestionPaper" resultType="com.steins.entity.QuestionPaper">
+        select * from QuestionPaper
+    </select>
+    <select id="selectAllTestControl" resultType="com.steins.entity.TestControl">
+        select * from TestControl tc order by tc.tdate desc
+    </select>
+    <select id="ckTestControl" resultType="com.steins.entity.TestControl">
+        select * from TestControl tc order by tc.tdate desc
+    </select>
+    <select id="ckTestNote" resultType="com.steins.entity.TestNote">
+        select * from TestNote t where t.students.sid = ${sid} order by t.tdate desc ;
+    </select>
+    <select id="cqQuestionPaper" resultType="com.steins.entity.QuestionPaper">
+        select * from QuestionPaper order by rand() limit 1
+    </select>
+    <select id="ckStudents" resultType="com.steins.entity.Students">
+        select * from Students where sid = ${sid}
+    </select>
+    <select id="hqQuestionPaper" resultType="com.steins.entity.QuestionPaper">
+        select * from QuestionPaper where qpid = ${qpid}
+    </select>
+    <select id="ckxzQpRelationq" resultType="com.steins.entity.QpRelationq">
+
+    </select>
+    <select id="czQuestion" resultType="com.steins.entity.Question">
+        select * from Question where qid = ${qid}
+    </select>
+    <select id="getQpq" resultType="com.steins.entity.QpRelationq">
+        select * from  QpRelationq qpq where qpq.questionPaper.qpid = ${qpid} order by qpq.num asc
+    </select>
+    <select id="ckpdQpRelationq" resultType="com.steins.entity.QpRelationq">
+
+    </select>
+    <select id="cktkQpRelationq" resultType="com.steins.entity.QpRelationq">
+
+    </select>
+    <select id="getAllTestControl" resultType="com.steins.entity.TestControl">
+        select * from testnote
+    </select>
+
+</mapper>

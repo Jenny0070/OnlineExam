@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springmvcTest:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2eea7952-6fd6-41cf-b7e6-9f8c006a5616" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="softwareGroup" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/controller/testControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/sdenglu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2805">
+              <caret line="165" column="38" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/controller/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/student/upw.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/student/welcome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="76" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="76" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/dao/StudentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/welcome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="83" column="21" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="83" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>file</find>
+      <find>5.1.</find>
+      <find>mchange</find>
+      <find>action</find>
+      <find>asDao</find>
+      <find>#</find>
+      <find>选择查找试题的试题类型</find>
+      <find>查找试题</find>
+      <find>tcService</find>
+      <find>qpService</find>
+      <find>查看相似</find>
+      <find>addStudent</find>
+      <find>addStudentAdmin</find>
+      <find>javascript:;</find>
+      <find>return</find>
+      <find>admin</find>
+      <find>/</find>
+      <find>_</find>
+      <find>dd</find>
+      <find>addAdminQuestionXZ</find>
+      <find>ckXSPDQuestion</find>
+      <find>addQuestionTK</find>
+      <find>&amp;qid</find>
+      <find>new Da</find>
+      <find>tjAdminQuestionPaper</find>
+      <find>&lt;a</find>
+      <find>c</find>
+      <find>ckqp</find>
+      <find>ckAdminQuestionPaper</find>
+      <find>add</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>${spring.version}</replace>
+      <replace>answerStateDao</replace>
+      <replace>$</replace>
+      <replace>testControlService</replace>
+      <replace>questionPaperService</replace>
+      <replace>admin_</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/adenglu.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin_/ckxsxzquestion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin_/ckxstkquestion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin_/ckxspdquestion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/controller/AdminUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/controller/ClassController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/addquestionxz.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/upw.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckxx.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckxsxzquestion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckxstkquestion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckxspdquestion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckteacherxx.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckstudentxx.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckqxzqt.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckbj.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckallteacher.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckallstudent.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/addteacher.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/addstudent.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/QuestionDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/service/impl/QuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/addquestionpd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/addquestiontk.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/dao/QuestionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/teacher/upwsuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/szquestionpaper.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/dao/TestControlDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TestControlDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/service/impl/TestControlService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/entity/QuestionPaper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/ckqp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/QuestionPaperDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/dao/QuestionPaperDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/service/impl/QuestionPaperService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/teacher/ckqpquestion.jsp" />
+        <option value="$PROJECT_DIR$/src/main/test/com/steins/service/impl/QuestionPaperServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/controller/QuestionPaperController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/tjquestionpaper.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/admin/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/teacher/sztest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/entity/TestNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/entity/TestControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/controller/testControl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/tdenglu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/sdenglu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/steins/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/student/welcome.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springmvcTest Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="byeController&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558255237787" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2748162" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.steins.service.impl" />
+      <recent name="com.steins.interceptors" />
+      <recent name="com.steins.service" />
+      <recent name="com.steins.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.steins.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\softwareGroup\src\main\webapp\pages\teacher" />
+      <recent name="C:\Users\hp\Desktop\softwareGroup\src\main\webapp\pages\student_" />
+      <recent name="C:\Users\hp\Desktop\softwareGroup\src\main\webapp\pages\teacher_" />
+      <recent name="C:\Users\hp\Desktop\softwareGroup\src\main\webapp\pages\admin_" />
+      <recent name="C:\Users\hp\Desktop\softwareGroup\src\main\webapp\static\custom\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.steins.util" />
+      <recent name="com.steins.entity" />
+      <recent name="com.steins.interceptors" />
+      <recent name="com.steins.controller" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\softwareGroup\src\main\resources\spring" />
+      <recent name="D:\iDEA\softwareGroup\src\main\webapp" />
+      <recent name="D:\iDEA\softwareGroup\src\main\webapp\pages" />
+      <recent name="D:\iDEA\springmvcTest1.2\src\main\webapp\page" />
+      <recent name="D:\IDEA\springmvcTest\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testlog4j" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.steins.interceptors.testlog4j" />
+      <module name="OnlineExam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steins.interceptors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServiceImplTest.queryOneStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steins.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.steins.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.steins.service.impl.AdminServiceImplTest" />
+      <option name="METHOD_NAME" value="queryOneStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionPaperServiceTest.allQT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steins.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.steins.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.steins.service.impl.QuestionPaperServiceTest" />
+      <option name="METHOD_NAME" value="allQT" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionPaperServiceTest.ckAdminQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steins.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.steins.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.steins.service.impl.QuestionPaperServiceTest" />
+      <option name="METHOD_NAME" value="ckAdminQuestion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnlineExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steins.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.steins.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.steins.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="getUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="OnlineExam" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="OnlineExam" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="springmvcTest:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_softwareGroup_3" />
+        <option name="HTTP_PORT" value="8088" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61916" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springmvcTest:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="springmvcTest:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_softwareGroup" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61916" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springmvcTest:war" />
+          <artifact name="springmvcTest:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.testlog4j" />
+      <item itemvalue="JUnit.AdminServiceImplTest.queryOneStore" />
+      <item itemvalue="JUnit.UserDaoTest.getUser" />
+      <item itemvalue="JUnit.QuestionPaperServiceTest.ckAdminQuestion" />
+      <item itemvalue="JUnit.QuestionPaperServiceTest.allQT" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QuestionPaperServiceTest.allQT" />
+        <item itemvalue="JUnit.QuestionPaperServiceTest.ckAdminQuestion" />
+        <item itemvalue="JUnit.UserDaoTest.getUser" />
+        <item itemvalue="Application.testlog4j" />
+        <item itemvalue="JUnit.AdminServiceImplTest.queryOneStore" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2eea7952-6fd6-41cf-b7e6-9f8c006a5616" name="Default Changelist" comment="" />
+      <created>1557289431486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557289431486</updated>
+      <workItem from="1557289433913" duration="3708000" />
+      <workItem from="1557361030489" duration="1021000" />
+      <workItem from="1557642032331" duration="7251000" />
+      <workItem from="1557709413982" duration="1691000" />
+      <workItem from="1557711385658" duration="11436000" />
+      <workItem from="1557900387071" duration="2053000" />
+      <workItem from="1557902712730" duration="9462000" />
+      <workItem from="1557923010379" duration="9476000" />
+      <workItem from="1557934167703" duration="1299000" />
+      <workItem from="1557964916012" duration="15644000" />
+      <workItem from="1558065618871" duration="6507000" />
+      <workItem from="1558247076699" duration="8139000" />
+      <workItem from="1558255327224" duration="793000" />
+      <workItem from="1558256268902" duration="270000" />
+      <workItem from="1558347054833" duration="255000" />
+      <workItem from="1558359642019" duration="202000" />
+      <workItem from="1558366044787" duration="320000" />
+      <workItem from="1558367777753" duration="4261000" />
+      <workItem from="1558419682684" duration="2583000" />
+      <workItem from="1558422583104" duration="595000" />
+      <workItem from="1558431914271" duration="3218000" />
+      <workItem from="1558450894663" duration="1130000" />
+      <workItem from="1558510279190" duration="375000" />
+      <workItem from="1558619804030" duration="2012000" />
+      <workItem from="1558781293325" duration="818000" />
+      <workItem from="1558782135455" duration="1057000" />
+      <workItem from="1558943949970" duration="5881000" />
+      <workItem from="1558958464590" duration="20000" />
+      <workItem from="1559035887181" duration="12967000" />
+      <workItem from="1559131707484" duration="763000" />
+      <workItem from="1559176111374" duration="5186000" />
+      <workItem from="1559203334291" duration="8648000" />
+      <workItem from="1559287851104" duration="8023000" />
+      <workItem from="1559366015422" duration="13311000" />
+      <workItem from="1559452064864" duration="16727000" />
+      <workItem from="1559478641786" duration="15231000" />
+      <workItem from="1559499752208" duration="1607000" />
+      <workItem from="1559502247158" duration="2327000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserDaoTest_getUser - 2019.05.21 at 23h 13m 48s.xml">
+      <configuration name="UserDaoTest.getUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_getUser - 2019.05.21 at 23h 19m 06s.xml">
+      <configuration name="UserDaoTest.getUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_getUser - 2019.05.21 at 23h 19m 41s.xml">
+      <configuration name="UserDaoTest.getUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDaoTest_getUser - 2019.05.23 at 22h 00m 51s.xml">
+      <configuration name="UserDaoTest.getUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestionPaperServiceTest_ckAdminQuestion - 2019.06.02 at 23h 50m 37s.xml">
+      <configuration name="QuestionPaperServiceTest.ckAdminQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestionPaperServiceTest_ckAdminQuestion - 2019.06.02 at 23h 51m 01s.xml">
+      <configuration name="QuestionPaperServiceTest.ckAdminQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestionPaperServiceTest_ckAdminQuestion - 2019.06.02 at 23h 51m 32s.xml">
+      <configuration name="QuestionPaperServiceTest.ckAdminQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestionPaperServiceTest_ckAdminQuestion - 2019.06.02 at 23h 52m 37s.xml">
+      <configuration name="QuestionPaperServiceTest.ckAdminQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestionPaperServiceTest_allQT - 2019.06.03 at 00h 50m 55s.xml">
+      <configuration name="QuestionPaperServiceTest.allQT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QuestionPaperServiceTest_allQT - 2019.06.03 at 00h 51m 52s.xml">
+      <configuration name="QuestionPaperServiceTest.allQT" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="186267000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Learn" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.61206895" visible="true" weight="0.17537314" />
+      <window_info id="Structure" order="2" sideWeight="0.38418078" side_tool="true" weight="0.19969743" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.38418078" side_tool="true" weight="0.19969743" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.38793105" side_tool="true" weight="0.22314675" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49848714" weight="0.3262295" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49924356" visible="true" weight="0.4295082" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.6704918" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.36393443" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49848714" weight="0.3262295" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="17" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steins/servlet/WebPathInitServlet.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steins/controller/TeacherController.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/admin/szquestionpaper.jsp</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steins/controller/AdminUserController.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steins/controller/AdminUserController.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steins/controller/AdminUserController.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/admin/all.jsp</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/admin/addquestiontk.jsp</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/admin/addquestiontk.jsp</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckallstudent.jsp</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckqp.jsp</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckqxzqt.jsp</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckxsxzquestion.jsp</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/com/steins/service/impl/QuestionPaperServiceTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/steins/dao/TestControlDao.java</url>
+          <line>28</line>
+          <properties class="com.steins.dao.TestControlDao" method="saveTestNote" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckstudentxx.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="55" column="67" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+          <caret line="56" column="67" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckqxzqt.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="118" column="67" selection-start-line="118" selection-start-column="67" selection-end-line="118" selection-end-column="67" />
+          <caret line="119" column="67" selection-start-line="119" selection-start-column="67" selection-end-line="119" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckbj.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+          <caret line="88" column="67" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckallteacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="93" column="67" selection-start-line="93" selection-start-column="67" selection-end-line="93" selection-end-column="67" />
+          <caret line="94" column="67" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckallstudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="94" column="67" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
+          <caret line="95" column="67" selection-start-line="95" selection-start-column="67" selection-end-line="95" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/addteacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="175" column="67" selection-start-line="175" selection-start-column="67" selection-end-line="175" selection-end-column="67" />
+          <caret line="176" column="67" selection-start-line="176" selection-start-column="67" selection-end-line="176" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/addstudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="183" column="67" selection-start-line="183" selection-start-column="67" selection-end-line="183" selection-end-column="67" />
+          <caret line="184" column="67" selection-start-line="184" selection-start-column="67" selection-end-line="184" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/addquestionxz.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="237" column="67" selection-start-line="237" selection-start-column="67" selection-end-line="237" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/teacher/addquestiontk.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/controller/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/dao/QuestionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/addquestiontk.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="239" column="68" selection-start-line="239" selection-start-column="68" selection-end-line="239" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/teacher/upwsuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/teacher/addquestionpd.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="123" column="35" selection-start-line="123" selection-start-column="35" selection-end-line="123" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/service/impl/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="107" column="35" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+          <folding>
+            <element signature="e#2935#2936#0" expanded="true" />
+            <element signature="e#2982#2983#0" expanded="true" />
+            <element signature="e#3044#3045#0" expanded="true" />
+            <element signature="e#3091#3092#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/addquestionpd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="200" column="43" lean-forward="true" selection-start-line="200" selection-start-column="43" selection-end-line="200" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/service/impl/TestControlService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/dao/TestControlDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TestControlDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/entity/QuestionPaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/teacher/all.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-end-line="131" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/all.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="84" column="17" lean-forward="true" selection-end-line="109" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckqp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="163" column="74" selection-start-line="163" selection-start-column="74" selection-end-line="163" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/entity/QpRelationq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/dao/QuestionPaperDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/steins/service/impl/QuestionPaperServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/service/impl/QuestionPaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#3005#3006#0" expanded="true" />
+            <element signature="e#3041#3042#0" expanded="true" />
+            <element signature="e#3211#3212#0" expanded="true" />
+            <element signature="e#3253#3254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionPaperDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/szquestionpaper.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="131" column="65" selection-start-line="131" selection-start-column="56" selection-end-line="131" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/teacher/ckqpquestion.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="155" column="36" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/controller/QuestionPaperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="165" column="20" selection-start-line="165" selection-start-column="20" selection-end-line="165" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/ckxspdquestion.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2436">
+          <caret line="85" column="67" selection-start-line="85" selection-start-column="67" selection-end-line="85" selection-end-column="67" />
+          <caret line="86" column="67" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/tjquestionpaper.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1437">
+          <caret line="273" column="33" selection-start-line="273" selection-start-column="33" selection-end-line="273" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/teacher/sztest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="228" column="92" selection-start-line="228" selection-start-column="92" selection-end-line="228" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/entity/TestNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/entity/TestControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/adenglu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/tdenglu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/StudentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/controller/testControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/sdenglu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="165" column="38" selection-start-line="165" selection-start-column="38" selection-end-line="165" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/student/upw.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/steins/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/student/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="76" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="76" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/admin/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="83" column="21" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="83" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>springmvcTest:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib (3)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springmvcTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2748162" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:3.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.QuestionPaperDao">
+
+
+    <insert id="szQuestionPaper">
+       INSERT INTO `yitihua`.`questionpaper` ( `qpdate`, `time`, `tid`) VALUES ('${questionPaper.qpdate}',${questionPaper.time}, ${tid});
+
+    </insert>
+    <insert id="szAdminQuestionPaper">
+        INSERT INTO `yitihua`.`questionpaper` ( `qpdate`, `time`) VALUES ('${questionPaper.qpdate}', ${questionPaper.time})
+    </insert>
+    <select id="selectQuestion" resultType="com.steins.entity.Question">
+        select * from Question where qid = ?
+    </select>
+    <select id="findCount" resultType="java.lang.Integer">
+        select count(*) from Question q where q.teacher.tid = ${tid} and q.questionType.qtid = ${qtid} and  q.qscope = ${question.qscope} and q.qdifficulty = ${question.qdifficulty}
+    </select>
+    <select id="findCountAdmin" resultType="java.lang.Integer">
+        select count(*) from Question q where  q.questionType.qtid = ${qtid} and  q.qscope = ${question.qscope} and q.qdifficulty = ${question.qdifficulty}
+    </select>
+    <select id="findQuestion" resultType="com.steins.entity.Question">
+        select * from Question q join q.teacher t join q.questionType qt where t.tid = ${tid} and qt.qtid = ${qtid} and q.qscope = ${question.qscope} and q.qdifficulty =  ${question.qdifficulty} order by q.qid
+    </select>
+    <select id="findQuestionAdmin" resultType="com.steins.entity.Question">
+        select * from Question q join q.teacher t join q.questionType qt where qt.qtid = ${qtid} and q.qscope = ${question.qscope} and q.qdifficulty =  ${question.qdifficulty} order by q.qid
+
+    </select>
+    <select id="getQuestionPaper" resultType="com.steins.entity.QuestionPaper">
+        select * from QuestionPaper qp order by qp.qpid desc
+    </select>
+    <insert id="tjQuestionSX">
+        INSERT INTO `yitihua`.`qprelationq` (`num`, `qpid`, `qid`) VALUES (${num}, ${qpid}, ${qid});
+    </insert>
+    <select id="qpQuestion" resultType="com.steins.entity.Question">
+        select * from question where qid=(select qid from QpRelationq  qpq where qpq.qpid = ${qpid} order by qpq.num asc)
+    </select>
+    <select id="ckQuestionPaper" resultType="com.steins.entity.QuestionPaper">
+        select * from QuestionPaper qp where qp.teacher.tid = ${tid} order by qp.qpid desc
+    </select>
+    <select id="ckAdminQuestionPaper" resultType="com.steins.entity.QuestionPaper">
+        select * from QuestionPaper qp order by qp.qpid desc
+    </select>
+    <select id="allQT" resultType="com.steins.entity.QuestionType">
+        SELECT * FROM QuestionType
+    </select>
+
+
+</mapper>

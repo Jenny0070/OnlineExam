@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.BJDao">
+    <insert id="addbjsx" >
+        INSERT INTO `yitihua`.`bj` (`bjid`, `bjname`, `tid`) VALUES (${bjid}, ${bjname}, ${tid});
+    </insert>
+    <delete id="deleteBJ">
+        delete from bj where bjid=${bjid}
+    </delete>
+    <delete id="deleteBJStudent">
+        delete from Students where sid = ?
+    </delete>
+
+    <select id="ckbj" resultType="com.steins.entity.BJ">
+        select * from BJ where tid =#{tid}
+    </select>
+    <select id="ckbjAdmin" resultType="com.steins.entity.BJ">
+        select b.tid,b.password,b.tname,b.phone,b.email from BJ a,Teacher b where a.tid=b.tid
+    </select>
+    <select id="findByName" resultType="com.steins.entity.BJ">
+        select * from BJ where bjname = ?
+    </select>
+    <select id="ckBJStudents" resultType="com.steins.entity.Students">
+        select * from Students s where s.bj.bjid = ? order by s.sid desc
+    </select>
+
+
+</mapper>

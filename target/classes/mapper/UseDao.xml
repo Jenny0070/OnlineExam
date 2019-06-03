@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.UserDao">
+    <!--注册-->
+    <!--<insert id="insertUser" parameterType="com.steins.entity.User">-->
+        <!--insert into user(username,password) values (#{username},#{password})-->
+    <!--</insert>-->
+  <!--修改用户信息-->
+    <!--先删除-->
+    <!--<delete id="deleteUser">-->
+        <!--delete from user where username=#{username} and password={password}-->
+    <!--</delete>-->
+    <!--&lt;!&ndash;后插入&ndash;&gt;-->
+    <!--<insert id="insertUserInfo" parameterType="com.steins.entity.User">-->
+        <!--insert into-->
+         <!--user-->
+          <!--(username,password,birth,user_identity)-->
+          <!--values-->
+          <!--(#{username},#{password},#{birth},#{userIdentity})-->
+    <!--</insert>-->
+
+<!--&lt;!&ndash;注册时查看用户是否存在，用户名唯一&ndash;&gt;-->
+    <!--<select id="isExists" parameterType="com.steins.entity.User" resultType="Integer">-->
+        <!--select id from user where username=#{username}-->
+    <!--</select>-->
+    <!--登录状态只要核查用户名和密码即可-->
+    <select id="getUser" parameterType="com.steins.entity.User" resultType="int">
+        select id from user where username=#{username} and password=#{password}
+    </select>
+    <!--获取身份，管理员登录时使用-->
+    <!--<select id="getIdentity"  parameterType="com.steins.entity.User" resultType="java.lang.Integer">-->
+        <!--select user_identity from user where username=#{username} and password=#{password}-->
+    <!--</select>-->
+</mapper>

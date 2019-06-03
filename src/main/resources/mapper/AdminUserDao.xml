@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.AdminUserDao">
+
+    <select id="login" parameterType="com.steins.entity.AdminUser" resultType="com.steins.entity.AdminUser">
+        select * from  AdminUser where uid =${uid} and password = ${password}
+    </select>
+    <select id="selectAdmin" resultType="com.steins.entity.AdminUser">
+        select * from AdminUser where uid =${uid}
+    </select>
+
+    <update id="updatePW">
+        update AdminUser set password=${npw} where uid=${uid}
+    </update>
+</mapper>

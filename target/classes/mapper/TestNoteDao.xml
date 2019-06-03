@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.steins.dao.TestNoteDao">
+    <insert id="saveTestNote">
+        INSERT INTO `yitihua`.`testnote`
+         ( `tname`, `tdate`, `stime`, `etime`, `score`, `sid`, `qpid`)
+          VALUES
+        (${tn.tname}, ${tn.tdate}, ${tn.stime}, ${tn.etime}, ${tn.score}, ${tn.sid}, ${tn.qpid});
+    </insert>
+
+    <select id="getTestNote" resultType="com.steins.entity.TestNote">
+        select  * from TestNote where tnid = ${tnid}
+    </select>
+</mapper>
